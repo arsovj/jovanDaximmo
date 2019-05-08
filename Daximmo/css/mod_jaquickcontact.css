@@ -1,0 +1,197 @@
+﻿.contact,
+#ja-form {
+    float: none;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+    .contact .form-info,
+    #ja-form .form-info {
+        padding-left: 0 !important;
+    }
+
+        .contact .form-info ul {
+            margin: 30px 0 0;
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+            .contact .form-info ul li {
+                float: left;
+                padding-left: 25px;
+                min-height: 26px;
+                width: 48%;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+
+                .contact .form-info ul li.address {
+                    background: url(../../images/location.png) no-repeat left 5px;
+                    margin-right: 10px;
+                }
+
+                .contact .form-info ul li.telephone {
+                    background: url(../../images/phone.png) no-repeat left 5px;
+                }
+
+                .contact .form-info ul li.email {
+                    background: url(../../images/mail.png) no-repeat left 5px;
+                }
+
+    .contact ul.form-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+ul.form-list li {
+    background: none !important;
+    display: block !important;
+    margin-bottom: 10px;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+    ul.form-list li#row_name {
+        clear: none;
+        float: left;
+        width: 48%;
+    }
+
+    ul.form-list li#row_email {
+        clear: none;
+        float: right;
+        width: 48%;
+    }
+
+        ul.form-list li#row_email .small {
+            display: none;
+        }
+
+    ul.form-list li.error .input-box,
+    .contact ul.form-list li.error .input-box {
+        border: none !important;
+        background: none !important;
+        font-style: italic;
+        color: #cc0000;
+        font-size: 90%;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+    ul.form-list li label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    ul.form-list li input-text {
+        float: none;
+    }
+
+    ul.form-list li .input-box {
+        border: 0;
+        padding: 0;
+    }
+
+    ul.form-list li:hover .input-box {
+        background: transparent;
+        border: 0;
+        padding: 0;
+    }
+
+    ul.form-list li .input-box input,
+    ul.form-list li .input-box textarea {
+        background: #fff;
+        border: 1px solid #222;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        height: 32px;
+        margin-bottom: 0;
+        padding: 0 10px;
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        color: #414141;
+    }
+
+        ul.form-list li .input-box input#contact_email_copy {
+            width: auto;
+            height: auto;
+            line-height: normal;
+            margin: 0px 0px 0px 5px;
+            padding: 0px;
+        }
+
+    ul.form-list li .email_copy label {
+        display: inline-block;
+    }
+
+    ul.form-list li .input-box textarea {
+        height: 150px;
+        padding: 10px;
+    }
+
+        ul.form-list li .input-box input:focus,
+        ul.form-list li .input-box textarea:focus {
+            background: #fff;
+            border-color: #fff;
+            color: #444;
+        }
+
+        ul.form-list li .input-box input:-moz-placeholder,
+        ul.form-list li .input-box textarea:-moz-placeholder {
+            color: #666;
+            font-size: 12px;
+        }
+
+    ul.form-list li.error .input-box {
+        background: #fff0f0 !important;
+        display: block !important;
+        border: 1px dotted #cc0000;
+    }
+
+        ul.form-list li.error .input-box input {
+            width: 100%;
+        }
+
+.recaptchatable #recaptcha_response_field {
+    min-width: 145px;
+    left: 0;
+}
+
+ul.form-list .btn-action {
+    overflow: hidden;
+}
+
+    ul.form-list .btn-action a {
+        background: #303030;
+        color: #fff;
+        display: block;
+        float: right;
+        font-weight: bold;
+        padding: 10px 20px;
+        line-height: 1;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+        ul.form-list .btn-action a:hover,
+        ul.form-list .btn-action a:focus,
+        ul.form-list .btn-action a:active {
+            background: #303030;
+            color: #B4DE49;
+            text-decoration: none;
+        }
+
+        ul.form-list .btn-action a .icon {
+            display: none;
+        }

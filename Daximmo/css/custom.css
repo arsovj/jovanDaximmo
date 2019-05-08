@@ -1,0 +1,32 @@
+﻿@import url(../fonts/homestead/stylesheet.css);
+@import url(../fonts/bebas-neue/style.css);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+@media (max-width:1024px) {
+    .ja-footer a.back-to-top {
+        background: url(/templates/ja_onepage/images/arrow-up.png) no-repeat left top;
+        display: block;
+        height: 40px;
+        margin: 20px auto 0;
+        text-indent: -999em;
+        width: 40px;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+}
+
+a.arrow-down {
+    background: url(../images/arrow-down.png) no-repeat left top;
+    display: inline-block;
+    height: 40px;
+    font-weight: bold;
+    text-indent: -999em;
+    width: 40px;
+}
+
+    a.arrow-down:hover {
+        background-position: left bottom;
+    }
